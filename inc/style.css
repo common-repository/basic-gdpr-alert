@@ -1,0 +1,36 @@
+#basic-gdpr-alert{
+    display: none;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: var(--basic-gdpr-alert-width);
+    padding: 25px;
+    font-size: var(--basic-gdpr-alert-font-size);
+    background-color: var(--basic-gdpr-alert-bg-color);
+    color: var(--basic-gdpr-alert-text-color);
+    z-index: var(--basic-gdpr-alert-z-index);
+    border-radius: var(--basic-gdpr-alert-radius);
+    box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+#basic-gdpr-alert .basic-gdpr-alert-buttons{
+    margin-top: 1em;
+}
+
+#basic-gdpr-alert .basic-gdpr-alert-buttons .basic-gdpr-alert-button{
+    color: var(--basic-gdpr-alert-text-color);
+    background-color: var(--basic-gdpr-alert-bg-color);
+    padding: calc(var(--basic-gdpr-alert-font-size) / 2) var(--basic-gdpr-alert-font-size);
+    border:1px solid var(--basic-gdpr-alert-text-color);
+    border-radius: var(--basic-gdpr-alert-radius);
+    cursor: pointer;
+}
+
+#basic-gdpr-alert .basic-gdpr-alert-buttons .basic-gdpr-alert-button:hover{
+    background-color: var(--basic-gdpr-alert-text-color);
+    color: var(--basic-gdpr-alert-bg-color);
+}
+
+#basic-gdpr-alert.basic-gdpr-alert-preview{
+    display: block!important;
+}
